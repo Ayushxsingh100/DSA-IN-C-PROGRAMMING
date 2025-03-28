@@ -5,7 +5,7 @@
 struct node {
     int data;               // Data field to store the value
     struct node* next;      // Pointer to the next node
-};
+ };
 
 // Function to insert a new node into a sorted linked list
 struct node* sortedInsert(struct node* head, struct node* newNode) {
