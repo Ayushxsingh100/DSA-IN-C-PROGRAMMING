@@ -2,7 +2,7 @@
 #include <stdlib.h>
 
 
-typedef struct Queue {
+ typedef struct Queue {
     int data;
     int front, rear;
 } Queue;
