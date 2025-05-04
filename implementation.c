@@ -9,7 +9,7 @@ typedef struct tree {
 
 tree* initT(tree* pt , int data){
     pt = (tree*)malloc(sizeof(tree));
-    pt->data=data;
+     pt->data=data;
     pt->left = NULL;
     pt->right = NULL;
 }
