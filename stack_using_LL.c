@@ -9,8 +9,8 @@ struct node {
 struct node *tp = NULL;
 
 int isEmpty(struct node *top) {
-    return top == NULL;
-}
+      return top == NULL;
+} 
 
 int isFull(struct node *top) {
     struct node *p = (struct node*)malloc(sizeof(struct node));
